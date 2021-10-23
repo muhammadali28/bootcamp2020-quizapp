@@ -1,1 +1,27 @@
-
+.question-container{
+    max-width: 500px;
+    box-shadow: 0px 10px 25px rgb(109, 95, 95);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.question-form .submit{
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    padding: 7px; 
+    border:white;
+    margin-top: 10px;
+}
+.question-form .radio{
+    display: block;
+    padding: 5px;
+}
+.App{
+    text-align: center;
+    margin-top: 40px;
+}
+.question-container .result{
+   text-align: center;
+}

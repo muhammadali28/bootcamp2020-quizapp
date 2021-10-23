@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {Quiz, QuestionType} from '../Types/quiz_types';
 
 const shuffleArray = (array: any[])=>
@@ -14,6 +14,7 @@ export const getQuizDetails = async (totalQuestions: number, level: string): Pro
         return {
             question: questionobj.question,
             answer: questionobj.correct_answer,
+            correct_answer: questionobj.correct_answer,
             option: shuffleArray(questionobj.incorrect_answers.concat(questionobj.correct_answer))
         }
     })
